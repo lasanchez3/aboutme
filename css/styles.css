@@ -41,7 +41,7 @@ main {
 
 /* Fullscreen header styles */
 .fullscreen-header {
-    background-image: url(../assets/byn.JPG);
+    background-image: url(../assets/byn.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
