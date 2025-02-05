@@ -43,14 +43,14 @@ function toggleParagraph() {
 function changePicture() {
     const profilePic = document.getElementById("profile-pic");
     if (profilePic) {
-        profilePic.src = "assets/fall.JPG";
+        profilePic.src = "assets/fall.jpg";
     }
 }
 
 function resetPicture() {
     const profilePic = document.getElementById("profile-pic");
     if (profilePic) {
-        profilePic.src = "assets/me.JPG";
+        profilePic.src = "assets/me.jpg";
     }
 }
 
