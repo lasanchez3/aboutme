@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Sanchez</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+      <!-- Welcome alert -->
+    <section id="greeting">
+        <p id="welcome"></p>
+    </section>
+
+    <!-- Fullscreen header with background image -->
+    <header class="fullscreen-header">
+        <div class="header-content">
+            <h1>Please scroll to know more</h1>
+            <h1 class="highlight">About me.</h1>
+        </div>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">Who I am?</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content section -->
+
+    <main class="content-center">
+        <article id="about">
+            <h2>Who I am?</h2>
+            <p id="learn-more-text" style="display: none;"></p>
+            <button id="discover-btn" onclick="toggleParagraph()">Discover</button>
+        </article>
+    
+        <aside>
+            <h3>This is me</h3>
+            <img id="profile-pic" src="assets/me.JPG" alt="Profile Picture" onmouseover="changePicture()" onmouseout="resetPicture()">
+        </aside>
+    </main>
+
+    <!-- Footer section -->
+    <footer id="contact">
+        <h2 id="contact-text">Keep in Touch</h2>
+        <p>Feel free to reach out!</p>
+    </footer>
+
+</body>
+
+</html>

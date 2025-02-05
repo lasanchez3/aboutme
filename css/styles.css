@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.6;
+    color: #be33ff;
+    box-sizing: border-box;
+}
+
+.highlight {
+    color: #be33ff;
+    font-weight: bold;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+#welcome {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #be33ff;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Fullscreen header styles */
+.fullscreen-header {
+    background-image: url(../assets/byn.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 80px;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* Navigation styles */
+nav ul {
+    background: #be33ff;
+    color: #fff;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    color: #333;
+}
+
+.content-center {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.content-center img {
+    display: block;
+    margin: 1em auto;
+}
+
+button {
+    font-family: Montserrat, sans-serif;
+    background-color: #be33ff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: block;
+    margin: 1em auto; 
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #560c78;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Active effect for the button */
+button:active {
+    transform: translateY(0);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image styles */
+aside img {
+    height: 500px;
+    border-radius: 20%;
+    margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #be33ff;
+    color: #fff;
+    position: relative;
+}
+
+footer h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+
